@@ -1,0 +1,27 @@
+body {
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    background-image: url(https://stmed.net/sites/default/files/question-mark-wallpapers-25286-9601130.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.view-window {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    background-image: url(https://www.dailydot.com/wp-content/uploads/58f/21/a1f0a821cded1a9e33f605091f0766f8.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    clip: rect(0px, 250px, 250px, 0px);
+    z-index: -1;
+}
+.magnifier {
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
